@@ -23,7 +23,8 @@ func (h *handler) Todo(w http.ResponseWriter, r *http.Request) {
 	case http.MethodPost:
 		var req dto.CreateItemRequest
 
-		err := json.NewDecoder(r.Body).Decode(&req)
+		decoder := json.NewDecoder(r.Body)
+		err := decoder.Decode(&req)
 		if err != nil {
 			w.Write([]byte("ga bisa decode json nya"))
 			w.WriteHeader(422)
