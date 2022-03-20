@@ -4,6 +4,7 @@ import (
 	"context"
 	"errors"
 	"log"
+	"time"
 
 	"github.com/satriahrh/todo-api/dto"
 	"github.com/satriahrh/todo-api/model"
@@ -12,11 +13,13 @@ import (
 
 type todoitem struct {
 	database repository.Database
+	gcs      repository.Gcs
 }
 
-func New(database repository.Database) *todoitem {
+func New(database repository.Database, gcs repository.Gcs) *todoitem {
 	return &todoitem{
 		database: database,
+		gcs:      gcs,
 	}
 }
 
@@ -40,6 +43,11 @@ func (u *todoitem) CreateItem(ctx context.Context, req dto.CreateItemRequest) (e
 	}
 
 	return nil
+}
+
+func (u *todoitem) CreateItemWithFile(ctx context.Context, req dto.CreateItemWithFileRequest) error {
+	err := u.gcs.UploadFile(ctx, time.Now().String(), req.Document)
+	return err
 }
 
 func (u *todoitem) GetList(ctx context.Context, isDone bool) ([]model.Item, error) {

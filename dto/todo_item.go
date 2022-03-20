@@ -5,6 +5,11 @@ type CreateItemRequest struct {
 	Description string
 }
 
+type CreateItemWithFileRequest struct {
+	CreateItemRequest
+	Document []byte
+}
+
 type UpdateItemRequest struct {
 	ID          int
 	Name        string

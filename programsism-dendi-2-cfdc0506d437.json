@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "programsism-dendi-2",
+  "private_key_id": "cfdc0506d4378596ffe1f84f4bed5239c43cb069",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDXjjAUQeFifaOD\n4qfnDAeC36TaT2zH84t1yQY/2UW5oilvlSktwD/BgdtqGjsIRnSlExH5Gwsr8oN4\na6ATKbOnaY00CvupMReaTvhjBV1tEFwDf7hIBQCWbJ6sGhh+1axQ6nqqNK+ooJxm\nF+nA/HbIL8ktgTFrUbOTCxwQPeILEpOlz+iTfGCQbUt4pQRRTRVPIwOY7IcnMMKV\nihQNYgQmuD95zksZJwcDMaeGf0DAQBmtLhNwAVCPBKBVvCH+MZO1KigpxxVWWdpM\ng2L4sDWJcEJKMUowpRcAcNxeFJtB0x9bGYUPiA+iV8uYZk8IuPCd+0kxxttOsSvs\nmJytVvB3AgMBAAECggEAKVLk/L00jEEx29LUBYNU3U4quH+Jhzu1fLsxK4RnzZK9\nBts9rbuxfVN70Pd+YbPAIPVq+KqqlZ5Efg2D/qh7/JhLrbJ9VI5IzBhfnfwlUQdV\n3IXbulLbLftc3/mQwKAODOUm5wJ6uoUv9pKXCZxc2TvwAX1HEB/1oTb8BlEWyLBI\n0SjDfzoIUGWx8lIfNQyyh2qsqEErObjdAgGfNS+G9mQnQWBpDPoUQwL5c8tz6BQF\nDdphpId2kjpV9DhmU9vD2JsJLQbNeId/S+WLScoKha5fHwG09xp7afkp70d1n/Wp\nqusTYcOsEZD4AbPW6LXn45s2UVpiXed7/j8Tw01fAQKBgQD4OUzWujJ3kHwYLupW\nHM+SVFhhcG1giJUHEAEhOBij6aOVgb3aV5XFIYBrsnnNMtmUiCf88e1IAs1POQev\ndPe/gdy1EpdYjYwXj/fnwHEeFB83di7+R7Af+X/q1U8eZYLsKCS8t7T8MB74B5KK\njW9nBZyTKMlqu/2vjsM6QSV4lwKBgQDeTuTw7ADPxBQJJpmkCLmrUjgr62n4gvoj\ndeoTNsolrjl4OJ8FTqqUVxJgHzrXe/XcO5yNWHukQ9K9IfRgB5gNU4TVygD8SeJi\naaO0SQJIxeePuyI/BBvKWrbVfQGzJzqRkT1ayUupoWQSg00H9GI4eBz7Dm+2VV+U\ns1lL4SBjIQKBgE4vpk9gmPLmVOA9Ltzu+EbsQGZ4xksI2oA9/00aYVCIEFnQYx+6\nRNeyJMRHlGwZH0XU2VuoTIhJMahJm20d18e/vOhgMcHX3A+z7m9WQ4so5WhP1p+L\nryNzMGKky+YULXf7cQ7sgpqJAcg4gmUYBcYak2YbC86N5mt8+WuJB6eDAoGAUxfK\nGwMbio0PsBvtcZKRU6f3tvLXOTw7ouWACI6CIHNup7ECP0mYGLoy9Bq4M7Lxws/F\nRE++ZzeynV8DqKEuBE0jaYWHuMUlCQPTXJ+tauYOF3sq4cL3YDtn+4QuDnirO52+\nASEcVtssPH83W7HMxK6gpnZO6ygeAcbHqcUMBgECgYBFEPqtWaVm13TXp6Y9m6f7\nHdq1EAflxoJY2Ae/BWvcV3VEhIRyf5+z/ufDCyFj/fVFP4ZGhVn7rL+J/r+a0P7Z\nLXxVXxuMJKRbb3BmaaC8+6sfHJWv7wn5/PM0gdfCURe8NnZKBiDvtW9GENCGpZTA\nTFqEx3+HfQNukNMew62iog==\n-----END PRIVATE KEY-----\n",
+  "client_email": "todo-api@programsism-dendi-2.iam.gserviceaccount.com",
+  "client_id": "102092719161109017509",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/todo-api%40programsism-dendi-2.iam.gserviceaccount.com"
+}
