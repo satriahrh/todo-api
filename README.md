@@ -1,6 +1,7 @@
 ## Contributors
 
 - Satria H R Harsono
+- Dendi Anugerahh
 
 # Todo API
 
